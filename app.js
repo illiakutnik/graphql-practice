@@ -6,7 +6,7 @@ const schema = require('./schema/schema')
 const app = express()
 
 app.use(
-	'/graqhql',
+	'/graphql',
 	graphqlHTTP({
 		schema,
 		graphiql: true
